@@ -47,7 +47,7 @@ const replaceItemAtIndex = (arr, idx, newValue) => {
   return [
     ...arr.slice(0, idx),
     newValue,
-    ...arr.slice(idx+1)
+    ...arr.slice(idx+1),
   ];
 };
 
